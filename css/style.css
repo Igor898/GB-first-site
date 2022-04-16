@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+.i{
+    font-size: 64px;
+    color: #1F3F68;
+    max-width: 504px;
+    line-height: 74px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    margin-top: 115px;
+}
+.jora{
+    max-width: 425px;
+    min-height: 82px;
+    margin-top: 32px;
+}
+.logo{
+    width: 45.58px;
+    height: 48px;
+}
+.cont{
+    width: 33.46px;
+    height: 38px;
+}
+.j{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-top: 39px;
+}
+.paragraph{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    max-width: 780px;
+    margin-top: 16px;
+    opacity: 1;
+}
+.h3{
+    font-size: 36px;
+    text-align: center;
+}
+.person{
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.clon{
+    margin-bottom: 32px;
+}
+.marci{
+    font-size: 16px;
+    max-width: 750px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    margin: 0 auto;
+}
+.h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+.t{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    margin-bottom: 32px;
+    width: 428px;
+    margin-top: 8px;
+}
+.ini{
+    height: 72px;
+}
+.knopka{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 428px;
+    height: 72px;   
+    text-align: center;
+    border: none;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.forma{
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 56px;
+}
+.h4_form{
+    margin-top: 56px;
+    margin-bottom: 48px;
+    
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.top_box{
+    display: flex;
+    flex-direction: column;
+}
+.top_info{
+    flex-grow: 1;
+    background-image: url(../img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 44%;
+}
+.top{
+    padding-bottom: 190px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.button{
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    width: 220px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 71px;
+    border: none;
+}
+.tavar{
+    width: 357px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding-bottom: 44.13px;
+    display: flex;
+    flex-direction: column;
+}
+.img_tavar{
+    margin-top: 43.9px;
+    margin-bottom: 51.38px;
+    align-self: center;
+}
+.gr_img{
+    display: flex;
+}
+.card{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+    margin-left: 32px;
+}
+.nin{
+    margin-bottom: 14px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 32px;
+}
+.bi{
+    margin-left: 32px;
+    margin-bottom: 29.8px;
+}
+.tavari{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #316099;
+    margin-top: 112px;
+    padding-bottom: 64px;
+}
+.footer_top{
+    padding-top: 91px;
+}
+.footer_text{
+    max-width: 494.77px;
+    min-height: 80px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 32px;
+}
+hr{
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+.hi{
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+}
+.mint{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+.link{
+    margin-top: 165px;
+}
+.footer_link{
+    background: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 79.59px 15px 80.67px;
+    display: inline-block;
+    text-decoration: none;
+}
+.marker{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 64px;
+    margin-left: 22px;
+}
+.n{
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    width: 259px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.ni{
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    width: 240px;
+    font-size: 16px;
+    line-height: 26px;
+    list-style-type: none;
+    color: #1F3F68;
+    margin-top: 24px;
+}
+.gr_container{
+    display: flex;
+    justify-content: space-between;
+}
+.gr_img{
+    margin-top: 64px;
+    margin-bottom: 32px;
+    position: relative;
+}
+.photo1{
+    width: 100%;
+}
+.photo2{
+    width: 100%;
+}
+.text_project1{
+    position: absolute;
+    text-align: right;
+    font-size: 32px;
+    line-height: 46px;  
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 64px;
+    right: 64px;
+}
+.gr_img1{
+    margin-right: 32px;
+}
+.text_project2{
+    position: absolute;
+    top: 32px;
+    left: 32px; 
+    text-align: left;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+.project_items{
+    position: relative; 
+    flex-grow: 1;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.contact_img{
+    width: 300.31px;
+    height: 181px;
+    margin-bottom: 56px;
+}
+.emp{
+    width: 299px;
+    height: 53px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+.shapka{
+    background-image: url(../img/haed_of_contact_of_page.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 54px;
+    padding-bottom: 49px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+    margin-bottom: 96px;
+}
+.phone{
+    display: flex;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+}
+.iphone{
+    margin-bottom: 16px;
+}
+.alo{
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+}
+.site{
+    margin-right: 18px;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+.siti{
+    display: flex;
+    margin-bottom: 18px;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+}
+.mail{
+    display: flex;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+}
+.konvert{
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    margin-top: 1px;
+}
+.riba{
+    margin-top: 78px;
+    margin-right: 101px;
+}
+.karta{
+    height: 480px;
+}
+.the_and{
+    margin-top: 64px;
+}
+@media (max-width: 1024px){
+    .top_info{
+        background-size: 44%;
+        background-position: right bottom;
+    }
+    .top_box{
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .menu{
+        margin-top: 32px;
+    }
+    .shapka{
+        background-image: url(../img/head_of_contact_of_tablet.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 46px;
+    }
+    .paragraph{
+        max-width: 520px;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+    .riba{
+        margin: 0 auto;
+        margin-bottom: 64px;
+    }
+    .forma{
+        margin: 0 auto;
+    }
+    .karta{
+        height: 392px;
+    }
+    .tavari{
+        flex-direction: column;
+        text-align: center;
+    }
+    .tavar{
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    .nin{
+        text-align: left;
+    }
+    .bi{
+        text-align: left;
+    }
+    .card{
+        text-align: left;
+    }
+    .clon{
+        margin-top: 95px;
+    }
+    .images_grou{
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 704.62px;
+    }
+    .agein{
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+    .footer_link{
+        width: 133px;
+        height: 18px;
+        padding: 3px 0.04px 10.48px;
+    }
+    .footer{
+        margin-top: 64px;
+    }
+    .marci{
+        margin-left: 124px;
+        margin-right: 124px;
+    }
+    .marker{
+        flex-direction: column;
+    }
+    .c{
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 736px) {
+    .top_info{
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .i{
+        max-width: 323px;
+        min-height: 76px;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        margin-top: 35px;
+        margin-left: 16px;
+        margin-right: 17px;
+    }
+    .top_box{
+        padding-top: 24px;
+        padding-left: 16px;
+        padding-right: 19px;
+    }
+    .menu{
+        margin-top: 0;
+    }
+    .shapka{
+        background-image: url(../img/head_of_contact_on_phone.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 33px;
+    }
+    .paragraph{
+        max-width: 341px;
+        font-size: 16px;
+    }
+    .j{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .forma{
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 35px;
+    }
+    .t{
+        max-width: 100%;
+        height: 93px;
+    }
+    .ini{
+        height: 46px;
+    }
+    .h4_form{
+        font-size: 16px;
+        margin-top: 35px;
+    }
+    .text_form{
+        font-size: 14px;
+    }
+    .knopka{
+        max-width: 100%;
+        height: 46px;
+    }
+    .karta{
+        height: 349px;
+    }
+    .jora{
+        margin-top: 12px;
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 17px;
+        max-width: 343px;
+    }
+    .button{
+        width: 108px;
+        height: 27px;
+        margin: 0 auto;
+        margin-top: 32px;
+        font-size: 12px;
+        line-height: 26px; 
+        margin-bottom: 41px;
+    }
+    .top{
+        padding-bottom: 0;
+    }
+    .person{
+        margin: 0 auto;
+        margin-top: 48px;
+        margin-bottom: 32px;
+        max-width: 345px;
+        min-height: 55px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .tavari{
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    .tavar{
+        width: 100%;
+    }
+    .nin{
+        text-align: left;
+    }
+    .clon{
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center; 
+        margin-bottom: 32px;
+        margin-top: 32px;    
+    }
+    .marci{
+        margin-left: 16px;
+        margin-right: 16px;       
+    }
+    .gr_container{
+        flex-direction: column;
+    }
+    .gr_img{
+        margin-bottom: 16px;
+        margin-top: 82px;
+    }
+    .gr_img1{
+        width: 100%;
+        margin-bottom: 9px;
+    }
+    .gr_img2{
+        width: 100%;
+    }
+    .images_grou {
+        width: 90%;
+        padding: 0;
+    }
+    .text_project1{
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;      
+    }
+    .text_project2{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .hi{
+        font-size: 24px;
+        line-height: 28px;  
+        margin: 0 auto;
+        text-align: center;   
+    }
+    .footer_text{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 32px; 
+    }
+    .mint{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 41px;
+    }
+    .agein{
+        padding: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .footer_top{
+        padding-top: 18px;
+        text-align: center;
+    }
+    .link{
+        display: flex;
+        justify-content: center;
+        width: 108px;
+        height: 31px; 
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .footer{
+        padding-bottom: 32px;
+        margin-top: 64px;
+    }
+    .c{
+        margin-bottom: 17px;
+    }
+    .marker{
+        margin-top: 32px;
+    }
+    .the_and{
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 37px;
+    }
+}
